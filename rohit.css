@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+    color: white;
+}
+.navbar{
+    background: blue;
+    color: white;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.raddbtn{
+    text-align: center;
+    
+}
+#addbtn{
+    background-color: darkblue;
+   
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#addbtn:hover{
+    background-color: crimson;
+}
+.notes{
+    text-align: center;
+    margin-top: 20px;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+    font-family: sans-serif;
+    resize: none;
+    font-size: 20px;
+}
+.deletebtn{
+    background-color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.deletebtn:hover{
+    background-color: red;
+    color: white;
+}
+.editbtn{
+    background-color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+}
+.editbtn:hover{
+    background-color: red;
+    color: white;
+}
+    
+.hidden{
+    display: none;
+}
+.operation{
+    margin-top: 5px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.main{
+    display: inline;
+    text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+}
